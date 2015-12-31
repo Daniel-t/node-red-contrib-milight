@@ -6,10 +6,14 @@
     "keywords": [ "node-red", "milight", "limitless led", "scheduler" ],
     "node-red"      : {
         "nodes"     : {
-            "MiLightRGB": "MiLight.js"
+            "MiLightRGB": "MiLight.js",
+            "MiLightWhite": "MiLight.js"
+            "MiLightPower": "MiLight.js"
         }
     },
-  "dependencies": {},
+  "dependencies": {
+	"milight" : "1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Daniel-t/node-red-contrib-milight.git"
