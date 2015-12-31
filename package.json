@@ -7,7 +7,7 @@
     "node-red"      : {
         "nodes"     : {
             "MiLightRGB": "MiLight.js",
-            "MiLightWhite": "MiLight.js"
+            "MiLightWhite": "MiLight.js",
             "MiLightPower": "MiLight.js"
         }
     },
